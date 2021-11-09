@@ -9,4 +9,4 @@ To run the demo:
 ros2 launch my_package spawn_camera.launch.py
 
 Remender to change the plugin path, in the simple_camera.urdf file, since the plugin version is not included in the path of 
-gazebo_ros_pkgs. Find the .so file path at "/dev_ws/build/my_plugins/libgazebo_ros_camera.so".
+gazebo_ros_pkgs. Find the .so file path at "/dev_ws/build/my_plugins/libgazebo_ros_camera.so". Also, an empty src folder must be added inside the my_package before "colcon build".
